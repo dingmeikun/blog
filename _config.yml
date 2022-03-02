@@ -109,3 +109,10 @@ deploy:
   type: git
   repo: git@120.79.165.204:/home/git/hexo.git
   branch: master
+  
+  
+# 订阅 RSS
+feed:
+    type: atom
+    path: atom.xml
+    limit: false
