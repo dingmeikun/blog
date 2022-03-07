@@ -2,6 +2,7 @@
 title: about
 layout: about
 date: 2022-03-01 15:46:31
+typora-root-url: ..
 ---
 
 ## 🏠 关于本站
@@ -27,7 +28,7 @@ date: 2022-03-01 15:46:31
 微信：茗记（ding0602foxmail）
 微信公众号：[蒂姆的冒险之旅](https://mp.weixin.qq.com/s/_izXrRi6eLav8NfLRaD6Mg)（ID：gh_cca71f7cbfbe）
 
-![微信公众号：蒂姆的冒险之旅](https://gitee.com/dingmeikun/md-imgs/raw/master/blog/wechat/wei_scan.png)
+![微信公众号：蒂姆的冒险之旅](/images/wei_scan.png)
 
 有博客且志同道合的朋友，欢迎来交换友链。
 

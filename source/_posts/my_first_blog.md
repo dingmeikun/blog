@@ -4,6 +4,7 @@ date: 2021-05-25 21:45:53
 tags: 运维
 categories: 工作
 comments: true
+typora-root-url: ../
 ---
 
 
@@ -19,3 +20,6 @@ comments: true
 #### 安装hexo
 
 安装hexo
+
+![](/images/my_first_blog/avatar.png)
+
