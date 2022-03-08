@@ -443,13 +443,13 @@ footer:
   # 国内大陆服务器的备案信息
   # For Chinese mainland website policy, other areas keep disable
   beian:
-    enable: false
+    enable: true
     # ICP证号
-    icp_text: 京ICP证123456号
+    icp_text: 赣ICP备2022001784号
     # 公安备案号，不填则只显示ICP
-    police_text: 京公网安备12345678号
+    police_text: 
     # 公安备案的编号，用于URL跳转查询
-    police_code: 12345678
+    police_code: 2022001784
     # 公安备案的图片. 为空时不显示备案图片
     police_icon: /img/police_beian.png
 
@@ -648,10 +648,11 @@ post:
   # Copyright, will be displayed at the end of each post
   copyright:
     enable: true
+    content: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！'
 
     # CreativeCommons license
     # Options: BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND
-    license: 'BY'
+    license: 'BY-SA'
 
     # 显示作者
     author:
@@ -736,7 +737,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
-    type: disqus
+    type: valine
 
 
 #---------------------------
@@ -798,13 +799,13 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId:
-  appKey:
+  appId: rOXV3WMg5x4yx0Qg982qUHbO-gzGzoHsz
+  appKey: cNPOK9GBUGQgdPECYzeSO2zD
   path: window.location.pathname
-  placeholder:
+  placeholder: "快来评论一下吧，评论的时候可以写下你酷酷的昵称哦٩(๑>◡<๑)۶"
   avatar: 'retro'
   meta: ['nick', 'mail', 'link']
-  requiredFields: []
+  requiredFields: [nick]
   pageSize: 10
   lang: 'zh-CN'
   highlight: false
@@ -812,7 +813,7 @@ valine:
   serverURLs: ''
   emojiCDN:
   emojiMaps:
-  enableQQ: false
+  enableQQ: true
 
 # Waline
 # 从 Valine 衍生而来，额外增加了服务端和多种功能
@@ -1035,7 +1036,7 @@ links:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
-    type: disqus
+    type: valine
 
 
 #---------------------------
