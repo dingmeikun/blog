@@ -498,7 +498,7 @@ $ hexo hexo cl && hexo g && hexo d
 
 在阿里云首页搜索：“SSL证书”，点击【选购SSL证书】进入到购买页面，在【SSL证书服务】项选择 “DV单域名证书【免费使用】”，直接购买。**注意，选择其他选项会触发收费项目。**
 
-![image-20220310143613593]1(/images/my_blog_init/image-20220310143613593.png)
+![image-20220310143613593](/images/my_blog_init/image-20220310143613593.png)
 
 按照步骤的流程点击之后，域名解析里会**自动**多出下面这一条解析：
 
@@ -553,7 +553,7 @@ server {
         ssl_prefer_server_ciphers  on;
 
         location / {
-            root   /home/dingmk/hexo;
+            root   /home/tim/hexo;
             index  index.html index.htm;
         }
     }
