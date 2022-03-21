@@ -26,7 +26,7 @@ typora-root-url: ..
 你可以在以下平台找到我：
 
 微信：茗记（ding0602foxmail）
-微信公众号：[蒂姆的冒险之旅](https://mp.weixin.qq.com/s/_izXrRi6eLav8NfLRaD6Mg)（ID：gh_cca71f7cbfbe）
+微信公众号：[蒂姆的冒险之旅]()（ID：gh_cca71f7cbfbe）
 
 ![微信公众号：蒂姆的冒险之旅](/images/wei_scan.png)
 
